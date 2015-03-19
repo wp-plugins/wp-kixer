@@ -3,7 +3,7 @@ Contributors: kixer
 Tags: kixer, mobile ads
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 4.1.1
+Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WP-Kixer allows you to add Kixer units in to your blog pages, posts and widgets.
