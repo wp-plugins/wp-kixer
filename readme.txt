@@ -12,10 +12,6 @@ WP-Kixer allows you to add Kixer units in to your blog pages, posts and widgets.
 WP-Kixer allows you to add Kixer units in to your blog pages, posts and widgets in 3 different ways.
 You must have a unit ID number provided by Kixer before using this plugin. 
 
-1. Shortcode
-2. Template Tag
-3. Below Content
-
 1. Shortcode: 
 The Kixer shortcode lets you place the unit in specific pages, posts or inside a sidebar widget. 
 Place the kixer shortcode anywhere in the content and the unit will fire at the moment of rendering the page.
