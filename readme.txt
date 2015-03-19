@@ -37,6 +37,11 @@ Fill-in your unit's ID field and select the checkbox to insert the unit at the b
 2. Activate the plugin through the \"Plugins\" menu in WordPress.
 3. Find WP-Kixer settings page in the \"Plugins\" menu in WordPress.
 
+
+== Screenshots ==
+1. WP-Kixer plugin settings page., screenshot-1.png.
+
+
 == Changelog ==
 = 0.1 =
 * Initial release.
