@@ -29,9 +29,9 @@ For a different placement the two previous options are recommended.
 Fill-in your unit's ID field and select the checkbox to insert the unit at the bottom of your posts and pages.
 
 == Installation ==
-1. Extract the contents of the wp-kixer.zip file into the \"/wp-content/plugins/\" directory.
-2. Activate the plugin through the \"Plugins\" menu in WordPress.
-3. Find WP-Kixer settings page in the \"Plugins\" menu in WordPress.
+1. Extract the contents of the wp-kixer.zip file into the "/wp-content/plugins/" directory.
+2. Activate the plugin through the "Plugins" menu in WordPress.
+3. Find WP-Kixer settings page in the "Plugins" menu in WordPress.
 
 
 == Screenshots ==
