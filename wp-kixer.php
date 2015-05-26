@@ -2,7 +2,7 @@
 /*
  * Plugin Name: WP-Kixer
  * Description: Add kixer units to your WordPress
- * Version: 0.1
+ * Version: 0.2
  * Author: Kixer
  * Author URI: http://kixer.com
  */
@@ -65,10 +65,20 @@ function kixer_bottom($content) {
 	return $content . $output;
 }
 
+function kixer_footer() {	
+	$__kx_options = get_option( 'kx_settings');
+	$id = $__kx_options['kx_footer_id'];
+	$output = get_kixer_code($id);
+	echo $output;
+}
+
 $__kx_options = get_option( 'kx_settings');
 if( !empty($__kx_options) ) {
 	if( $__kx_options['kx_bottom'] == "1" ) {
 		add_filter('the_content', 'kixer_bottom');	
+	}
+	if( $__kx_options['kx_footer'] == "1" ) {
+		add_action( 'wp_footer', 'kixer_footer' );
 	}
 }
 ?>
